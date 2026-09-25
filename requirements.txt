@@ -1,0 +1,10 @@
+streamlit
+langchain>=0.3.27
+langchain-core>=1.4.4
+langchain-huggingface>=0.1.1
+langchain-groq>=0.2.1
+langchain-classic>=1.0.8
+chromadb
+sentence-transformers==3.3.1
+pypdf
+python-dotenv==1.0.1

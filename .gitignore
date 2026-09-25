@@ -1,0 +1,49 @@
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Python / bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+.conda
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Vector store (rebuilt from source PDF)
+chroma_db/
+data/chroma/
+*.sqlite3
+*.parquet
+
+# Local embedding model (80MB, download via first run)
+models/
+sentence-transformers/
+
+# Uploaded PDFs (user-specific, PII possible)
+data/uploads/*.pdf
+!data/uploads/.gitkeep
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs
+*.log
+logs/
