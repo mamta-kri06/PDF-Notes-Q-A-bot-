@@ -47,3 +47,6 @@ desktop.ini
 # Logs
 *.log
 logs/
+
+# Interview notes
+rag_interview.md
